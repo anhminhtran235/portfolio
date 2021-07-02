@@ -1,6 +1,6 @@
 <template>
     <nav class="nav-container">
-        <h2 class="logo">My logo</h2>
+        <h2 class="logo">Anh Minh</h2>
         <ul class="nav">
             <li>
                 <a href="#" class="nav-link">Experience</a>
@@ -27,14 +27,41 @@ export default {
 <style scoped lang="scss">
     @import '../styles/_variables.scss';
 
+    h2 {
+        background:
+            linear-gradient(
+                to right,
+                $orange 0%,
+                $orange 5px,
+                transparent 5px
+            );
+        background-repeat: repeat-x;
+        background-size: 100%;
+        color: #000;
+        padding-left: 15px;
+        text-decoration: none;
+    }
+
+    h2:hover {
+        background:
+            linear-gradient(
+                to right,
+                $orange 0%,
+                $orange 5px,
+                transparent
+            );
+    }
+
     .nav-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         .logo {
-            font-size: 30px;
-            padding: 8px 12px;
+            font-size: 45px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 100;
+            /* padding: 8px 12px; */
 
             &:hover {
                 cursor: pointer;
