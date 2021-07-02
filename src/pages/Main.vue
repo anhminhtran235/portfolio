@@ -1,9 +1,19 @@
 <template>
-    <h1>My portfolio</h1>
+    <container>
+        <navbar></navbar>
+    </container>
 </template>
 
 <script>
-export default {
+import Container from '../components/Container.vue';
+import Navbar from '../components/Navbar.vue';
 
-}
+export default {
+    components: {
+        Container,
+        Navbar,
+    },
+};
 </script>
+
+<style></style>
