@@ -6,27 +6,27 @@
                 <div class="card">
                     <h3 class="company">Article (May 2021 - Dec 2021)</h3>
                     <p class="position">Full-stack developer, Co-op</p>
-                    <p class="info">- Migrated the system to a newer AWS transcoding service: Media Convert</p>
-                    <p class="info">- Utilized Java Spring, Java Play and Vue to fix 10+ bugs and contribute 3+ features</p>
-                    <p class="info">- Enhanced test coverage via Junit tests</p>
+                    <p class="info"><span class="checkmark">✔</span> Migrated the system to a newer AWS transcoding service: Media Convert</p>
+                    <p class="info"><span class="checkmark">✔</span> Utilized Java Spring, Java Play and Vue to fix 10+ bugs and contribute 3+ features</p>
+                    <p class="info"><span class="checkmark">✔</span> Enhanced test coverage via Junit tests</p>
                 </div>
             </li>
             <li>
                 <div class="card">
                     <h3 class="company">Fieldd.co (Nov 2020 - Jan 2021)</h3>
                     <p class="position">Full-stack developer, Part-time</p>
-                    <p class="info">- Integrate Sendgrid’s email tracking into the Customer Relationship Managementsystem to track 500+ invoice emails per day</p>
-                    <p class="info">- Reduced the loading time of staff profile from 15 seconds to 3-5 seconds using MongoDB projection and pagination</p>
-                    <p class="info">- Developed photo messaging feature using Socket.io and REST API</p>
+                    <p class="info"><span class="checkmark">✔</span> Integrate Sendgrid’s email tracking into the Customer Relationship Managementsystem to track 500+ invoice emails per day</p>
+                    <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 15 seconds to 3-5 seconds using MongoDB projection and pagination</p>
+                    <p class="info"><span class="checkmark">✔</span> Developed photo messaging feature using Socket.io and REST API</p>
                 </div>
             </li>
             <li>
                 <div class="card">
                     <h3 class="company">Langara College (May 2020 - Aug 2020)</h3>
                     <p class="position">Math TA</p>
-                    <p class="info">- Migrated the system to a newer AWS transcoding service: Media Convert</p>
-                    <p class="info">- Utilized Java Spring, Java Play and Vue to fix 10+ bugs and contribute 3+ features</p>
-                    <p class="info">- Enhanced test coverage via Junit tests</p>
+                    <p class="info"><span class="checkmark">✔</span> Migrated the system to a newer AWS transcoding service: Media Convert</p>
+                    <p class="info"><span class="checkmark">✔</span> Utilized Java Spring, Java Play and Vue to fix 10+ bugs and contribute 3+ features</p>
+                    <p class="info"><span class="checkmark">✔</span> Enhanced test coverage via Junit tests</p>
                 </div>
             </li>
         </ul>
@@ -216,6 +216,14 @@ h1 {
 
 .info {
     margin-bottom: 3px;
+}
+
+.checkmark {
+    color: $purple;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 </style>
