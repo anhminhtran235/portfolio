@@ -1,70 +1,60 @@
 <template>
-    <nav class="nav-container">
-        <h2 class="logo">Anh Minh</h2>
-        <ul class="nav">
-            <li>
-                <a href="#" class="nav-link">Experience</a>
-            </li>
-            <li>
-                <a href="#" class="nav-link">Projects</a>
-            </li>
-            <li>
-                <a href="#" class="nav-link">About</a>
-            </li>
-            <li>
-                <a href="#" class="nav-link-special">Say Hello</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="container large">
+        <nav class="nav-container">
+            <h2 class="logo">Anh Minh</h2>
+            <ul class="nav">
+                <li>
+                    <a href="#" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link-special">Say Hello</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
 
 <style scoped lang="scss">
     @import '../styles/_variables.scss';
-
-    h2 {
-        background:
-            linear-gradient(
-                to right,
-                $orange 0%,
-                $orange 5px,
-                transparent 5px
-            );
-        background-repeat: repeat-x;
-        background-size: 100%;
-        color: #000;
-        padding-left: 15px;
-        text-decoration: none;
-    }
-
-    h2:hover {
-        background:
-            linear-gradient(
-                to right,
-                $orange 0%,
-                $orange 5px,
-                transparent
-            );
-    }
 
     .nav-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 30px 0px;
 
         .logo {
             font-size: 45px;
             font-family: 'Dancing Script', cursive;
             font-weight: 100;
-            /* padding: 8px 12px; */
+            background:
+                linear-gradient(
+                    to right,
+                    $orange 0%,
+                    $orange 5px,
+                    transparent 5px
+                );
+            background-repeat: repeat-x;
+            background-size: 100%;
+            color: $purple;
+            padding-left: 15px;
+            text-decoration: none;
 
             &:hover {
                 cursor: pointer;
+                background:
+                    linear-gradient(
+                        to right,
+                        $orange 0%,
+                        $orange 5px,
+                        transparent
+                    );
             }
         }
 

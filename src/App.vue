@@ -27,4 +27,16 @@ export default {
       color: black;
     }
   }
+
+  .container.large {
+    padding: 0px 100px;
+  }
+
+  .container.medium {
+    padding: 0px 200px;
+  }
+
+  .container.small {
+    padding: 0px 300px;
+  }
 </style>

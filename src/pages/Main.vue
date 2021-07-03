@@ -1,22 +1,24 @@
 <template>
-    <container>
-        <navbar></navbar>
-        <magic-box></magic-box>
-    </container>
+    <navbar></navbar>
+    <hero></hero>
+    <intro></intro>
+    <main-content></main-content>
 </template>
 
 <script>
-import Container from '../components/Container.vue';
 import Navbar from '../components/Navbar.vue';
-import MagicBox from '../components/MagicBox.vue';
+import Hero from '../components/Hero.vue';
+import Intro from '../components/Intro.vue';
+import MainContent from '../components/MainContent/MainContent.vue';
 
 export default {
     components: {
-        Container,
         Navbar,
-        MagicBox
+        Hero,
+        Intro,
+        MainContent
     },
 };
 </script>
 
-<style></style>
+<style scoped></style>
