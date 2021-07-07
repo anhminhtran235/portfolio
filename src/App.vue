@@ -22,6 +22,7 @@ export default {
 
   body {
     font-family: 'Quicksand', sans-serif;
+    background: #fcfcfc;
     a {
       text-decoration: none;
       color: black;

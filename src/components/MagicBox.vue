@@ -1,41 +1,72 @@
 <template>
-    <div class="wrapper">
-        <button id="btn" class="magic">Magic 🎩</button>
-        <div id="boxes" class="boxes big"></div>
+    <div class="container large">
+        <h2>Thank you for looking at my website :)</h2>
+        <div class="flex-container">
+            <div class="wrapper">
+                <button id="btn" class="magic" @click="toggleClass">See magic! 🎩</button>
+                <div class="boxes" :class="{big: boxesStyleOn}">
+                    <div v-for="coordinate in coordinates" :key="coordinate[0]*10 + coordinate[1]">
+                        <div class="box" :style="getBoxStyle(coordinate[0], coordinate[1])"></div>
+                    </div>
+                </div>
+                <p class="thanks">Thanks Brad Traversy for the magic box</p>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
-    mounted() {
-        const boxesContainer = document.getElementById('boxes')
-        const btn = document.getElementById('btn')
-
-        btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))
-
-        function createBoxes() {
-            for (let i = 0; i < 4; i++) {
-                for (let j = 0; j < 4; j++) {
-                    const box = document.createElement('div')
-                    box.classList.add('box')
-                    box.style.backgroundPosition = `${-j * 62.5}px ${-i * 62.5}px`
-                    boxesContainer.appendChild(box)
-                }
-            }
+    data() {
+        return {
+            boxesStyleOn: true,
+            coordinates: [[0,0], [0,1], [0,2], [0,3],
+                          [1,0], [1,1], [1,2], [1,3],
+                          [2,0], [2,1], [2,2], [2,3],
+                          [3,0], [3,1], [3,2], [3,3]],
         }
-
-        createBoxes()
+    },
+    methods: {
+        toggleClass() {
+            this.boxesStyleOn = !this.boxesStyleOn;
+        },
+        getBoxStyle(i, j) {
+            return 'background-position: ' + `${-j * 62.5}px ${-i * 62.5}px`;
+        }
     }
 }
 </script>
+
 
 <style scoped lang="scss">
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.container {
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks {
+    margin-top: 20px;
 }
 
 .magic {
@@ -51,6 +82,7 @@ export default {
     letter-spacing: 1px;
     box-shadow: 0 3px rgba(249, 202, 36, 0.5);
     z-index: 100;
+    margin-bottom: 20px;
 }
 
 .magic:focus {

@@ -1,6 +1,6 @@
 <template>
     <h2>Work Experience</h2>
-    <section class="timeline">
+    <section id="timeline">
         <ul>
             <li>
                 <div class="card">
@@ -36,7 +36,7 @@
 <script>
 export default {
     mounted() {
-        const items = document.querySelectorAll('.timeline li');
+        const items = document.querySelectorAll('#timeline li');
 
         const isInViewport = el => {
             const rect = el.getBoundingClientRect();
@@ -75,20 +75,20 @@ h2 {
 
 h1 {
   font-size: 2.3rem;
-}
+} 
 
-.timeline {
+#timeline {
     color: white;
     overflow-x: hidden;
 }
 
-.timeline ul {
+#timeline ul {
   background: white;
   padding: 50px 0;
 }
 
 /* Create Line */
-.timeline ul li {
+#timeline ul li {
   list-style: none;
   position: relative;
   width: 6px;
@@ -98,7 +98,7 @@ h1 {
 }
 
 /* Boxes */
-.timeline ul li div {
+#timeline ul li div {
   position: relative;
   bottom: 0;
   width: 400px;
@@ -112,19 +112,19 @@ h1 {
 }
 
 /* Right Side */
-.timeline ul li:nth-child(odd) div {
+#timeline ul li:nth-child(odd) div {
   left: 40px;
   transform: translate(200px, 0);
 }
 
 /* Left Side */
-.timeline ul li:nth-child(even) div {
+#timeline ul li:nth-child(even) div {
   left: -434px;
   transform: translate(-200px, 0);
 }
 
 /* Dots */
-.timeline ul li:after {
+#timeline ul li:after {
   content: '';
   position: absolute;
   left: 50%;
@@ -138,7 +138,7 @@ h1 {
 }
 
 /* Arrows Base */
-.timeline div:before {
+#timeline div:before {
   content: '';
   position: absolute;
   bottom: 5px;
@@ -149,59 +149,59 @@ h1 {
 }
 
 /* Right Side Arrows */
-.timeline ul li:nth-child(odd) div:before {
+#timeline ul li:nth-child(odd) div:before {
   left: -18px;
   border-width: 8px 16px 8px 0;
   border-color: transparent $purple transparent transparent;
 }
 
 /* Left Side Arrows */
-.timeline ul li:nth-child(even) div:before {
+#timeline ul li:nth-child(even) div:before {
   right: -18px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent $purple;
 }
 
 /* Show Boxes */
-.timeline ul li.show div {
+#timeline ul li.show div {
   transform: none;
   visibility: visible;
   opacity: 1;
 }
 
-.timeline ul li.show:after {
+#timeline ul li.show:after {
   background: $purple;
 }
 
-.timeline div {
+#timeline div {
     border-radius: 12px;
 }
 
 
 @media(max-width: 900px) {
-  .timeline ul li div {
+  #timeline ul li div {
     width: 250px;
   }
 
-  .timeline ul li:nth-child(even) div {
+  #timeline ul li:nth-child(even) div {
     left: -284px;
   }
 }
 
 @media(max-width: 600px) {
-  .timeline ul li {
+  #timeline ul li {
     margin-left: 20px;
   }
 
-  .timeline ul li div {
+  #timeline ul li div {
     width: calc(100vw - 90px);
   }
 
-  .timeline ul li:nth-child(even) div {
+  #timeline ul li:nth-child(even) div {
     left: 40px;
   }
 
-  .timeline ul li:nth-child(even) div:before {
+  #timeline ul li:nth-child(even) div:before {
     left: -17px;
     border-width: 8px 16px 8px 0;
     border-color: transparent $purple transparent transparent;
