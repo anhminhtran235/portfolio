@@ -2,7 +2,7 @@
     <div class="container medium">
         <section class="hero">
             <div class="hero-body">
-                <h1>Hello, my name is Minh</h1>
+                <h1>{{currentText}}</h1>
                 <p>I love solving hard coding problems</p>
             </div>
             <div class="hero-foot">
@@ -11,6 +11,34 @@
         </section>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            headerText: 'Hello, my name is Minh!',
+            currentText: 'H',
+            waitMilliseconds: 100,
+        }
+    },
+    methods: {
+        typeEffect() {
+            if (this.currentText.length === this.headerText.length) {
+                this.currentText = '';
+            }
+
+            this.currentText = this.headerText.substring(0, this.currentText.length + 1);
+
+            if (this.currentText.length !== this.headerText.length) {
+                setTimeout(() => this.typeEffect(), this.waitMilliseconds);
+            }
+        }
+    },
+    mounted() {
+        this.typeEffect();
+    }
+}
+</script>
 
 <style scoped lang="scss">
     .hero {

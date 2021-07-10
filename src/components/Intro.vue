@@ -1,7 +1,7 @@
 <template>
     <div class="intro">
         <div class="container small">
-            <h2>Nice too meet you</h2>
+            <h2>Nice too meet you 👋</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat id sint veritatis dolores nostrum! Ducimus architecto voluptatem exercitationem corrupti nostrum, quo, voluptate dolore eius, laborum minus enim quisquam praesentium voluptates rem perferendis amet! Explicabo obcaecati assumenda ea cum nostrum quae, delectus sed ex suscipit sequi qui </p>
         </div>
     </div>
