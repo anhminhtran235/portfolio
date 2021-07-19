@@ -2,12 +2,10 @@
     <div class="card">
         <div class="description">
             <h3 class="header">{{header}}</h3>
-            <p class="content">{{content}}</p>
+            <p class="content1">{{content1}}</p>
+            <p class="content2">{{content2}}</p>
             <div class="tags">
-                <span class="tag purple">Nodejs</span>
-                <span class="tag orange">React</span>
-                <span class="tag red">Express</span>
-                <span class="tag green">MongoDB</span>
+                <span v-for="(tag, index) in tags" :key="tag" :class="getTagClass(index)">{{tag}}</span>
             </div>
             <div class="links">
                 <a :href="githubUrl" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link">
@@ -30,13 +28,21 @@
 export default {
     props: {
         header: String,
-        content: String,
+        content1: String,
+        content2: String,
         tags: Array,
         githubUrl: String,
         projectUrl: String,
         mediaUrl: String,
         mediaType: String,
         mediaAlt: String
+    },
+    methods: {
+        getTagClass(index) {
+            const colorList = ['purple', 'orange', 'red', 'green'];
+            index = index % colorList.length;
+            return 'tag ' + colorList[index];
+        }
     }
 }
 </script>
@@ -61,7 +67,11 @@ export default {
             margin-bottom: 20px;
         }
 
-        .content {
+        .content1 {
+            margin-bottom: 10px;
+        }
+
+        .content2 {
             margin-bottom: 30px;
         }
 
@@ -106,6 +116,7 @@ export default {
             border-radius: 20px;
             width: 100%;
             height: 100%;
+            border: 1px solid grey;
         }
     }
 

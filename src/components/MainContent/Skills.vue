@@ -4,7 +4,7 @@
             <div class="first">
                 <img src="../../assets/backend.svg" alt="backend">
                 <h2>Backend</h2>
-                <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                <p>I actively use many backend programming languages and frameworks</p>
             </div>
             <div class="second">
                 <p class="header">Languages and Frameworks</p>
@@ -22,7 +22,7 @@
             <div class="first">
                 <img class="algo" src="../../assets/algorithm.svg" alt="algorithm">
                 <h2>Algorithm</h2>
-                <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                <p>I have a solid foundation of Algorithm and Data Structures</p>
             </div>
             <div class="second">
                 <p class="header">Algorithm &amp; Data Structures</p>
@@ -40,7 +40,7 @@
             <div class="first">
                 <img src="../../assets/frontend.svg" alt="frontend">
                 <h2>Frontend</h2>
-                <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                <p>I have a wide range of frontend frameworks in my toolbox</p>
             </div>
             <div class="second">
                 <p class="header">Frontend Weapons</p>

@@ -4,16 +4,16 @@
             <h2 class="logo">Anh Minh</h2>
             <ul class="nav">
                 <li>
-                    <a href="#" class="nav-link">Experience</a>
+                    <a href="#work-experience" class="nav-link">Experience</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link">Projects</a>
+                    <a href="#personal-projects" class="nav-link">Projects</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link-special">Say Hello</a>
+                    <a href="#my-contact" class="nav-link-special">Say Hello</a>
                 </li>
             </ul>
         </nav>

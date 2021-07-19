@@ -1,22 +1,22 @@
 <template>
-    <h2>Work Experience</h2>
+    <h2 id="work-experience">Work Experience</h2>
     <section id="timeline">
         <ul>
             <li>
                 <div class="card">
                     <h3 class="company">Article (May 2021 - Dec 2021)</h3>
                     <p class="position">Full-stack developer, Co-op</p>
-                    <p class="info"><span class="checkmark">✔</span> Migrated the system to a newer AWS transcoding service: Media Convert</p>
-                    <p class="info"><span class="checkmark">✔</span> Utilized Java Spring, Java Play and Vue to fix 10+ bugs and contribute 3+ features</p>
-                    <p class="info"><span class="checkmark">✔</span> Enhanced test coverage via Junit tests</p>
+                    <p class="info"><span class="checkmark">✔</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, sed</p>
+                    <p class="info"><span class="checkmark">✔</span> Voluptas nostrum nam unde nobis, soluta nihil eius praesentium numquam corrupti accusamus</p>
+                    <p class="info"><span class="checkmark">✔</span> Saepe sit ullam quia perspiciatis</p>
                 </div>
-            </li>
+            </li> 
             <li>
                 <div class="card">
                     <h3 class="company">Fieldd.co (Nov 2020 - Jan 2021)</h3>
                     <p class="position">Full-stack developer, Part-time</p>
                     <p class="info"><span class="checkmark">✔</span> Integrate Sendgrid’s email tracking into the Customer Relationship Managementsystem to track 500+ invoice emails per day</p>
-                    <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 15 seconds to 3-5 seconds using MongoDB projection and pagination</p>
+                    <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 30+ seconds to 3-5 seconds using MongoDB projection and pagination</p>
                     <p class="info"><span class="checkmark">✔</span> Developed photo messaging feature using Socket.io and REST API</p>
                 </div>
             </li>
@@ -24,9 +24,9 @@
                 <div class="card">
                     <h3 class="company">Langara College (May 2020 - Aug 2020)</h3>
                     <p class="position">Math TA</p>
-                    <p class="info"><span class="checkmark">✔</span> Migrated the system to a newer AWS transcoding service: Media Convert</p>
-                    <p class="info"><span class="checkmark">✔</span> Utilized Java Spring, Java Play and Vue to fix 10+ bugs and contribute 3+ features</p>
-                    <p class="info"><span class="checkmark">✔</span> Enhanced test coverage via Junit tests</p>
+                    <p class="info"><span class="checkmark">✔</span> Answered students' questions about the lecture, clarify tough concepts</p>
+                    <p class="info"><span class="checkmark">✔</span> Gave hints to exercises students find challenging</p>
+                    <p class="info"><span class="checkmark">✔</span> Supported students from the following classes: Calculus I, Calculus II, Elementary Statistics, Linear Algebra</p>
                 </div>
             </li>
         </ul>

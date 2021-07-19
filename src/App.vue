@@ -20,6 +20,10 @@ export default {
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-family: 'Quicksand', sans-serif;
     background: #fcfcfc;

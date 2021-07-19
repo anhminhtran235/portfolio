@@ -1,50 +1,58 @@
 <template>
-    <h2>Personal Projects</h2>
+    <h2 id="personal-projects">Personal Projects</h2>
     <card 
-        :header="'lorem5f dlkjds '"
-        :content="'lorem31rr32 dsflkdfjsd lkjsfdlk fdsjl dfskj sfdlkj dsflkj fsdlkjlkjlkj dsflk fdsjl dsalkjasd lkjas dlkas jdlkdas jlk dsajlk sdajl kdsajlkds ajl kdasjlkda sj laskdjdas lkj adslk fdskj lfdskj dkfjlf dk jslk sdfj lkj fslkj lkj fdlk jf'"
-        :githubUrl="'google.com'"
-        :projectUrl="'google.com'"
-        :tags="['adsf', 'dsffds', 'fdsfsd']"
-        :mediaUrl="'https://www.youtube.com/embed/uUtw6Syic6A'"
-        :mediaAlt="'Alt'"
-        :mediaType="'youtube'"
-    ></card>
-    <card
-        class="flex-reverse"
-        :header="'lorem5f dlkjds '"
-        :content="'lorem31rr32 dsflkdfjsd lkjsfdlk fdsjl dfskj sfdlkj dsflkj fsdlkjlkjlkj dsflk fdsjl dsalkjasd lkjas dlkas jdlkdas jlk dsajlk sdajl kdsajlkds ajl kdasjlkda sj laskdjdas lkj adslk fdskj lfdskj dkfjlf dk jslk sdfj lkj fslkj lkj fdlk jf'"
-        :githubUrl="'google.com'"
-        :projectUrl="'google.com'"
-        :tags="['adsf', 'dsffds', 'fdsfsd']"
-        :mediaUrl="'https://www.youtube.com/embed/uUtw6Syic6A'"
-        :mediaAlt="'Alt'"
-        :mediaType="'youtube'"
-    ></card>
-    <card
-        :header="'lorem5f dlkjds '"
-        :content="'lorem31rr32 dsflkdfjsd lkjsfdlk fdsjl dfskj sfdlkj dsflkj fsdlkjlkjlkj dsflk fdsjl dsalkjasd lkjas dlkas jdlkdas jlk dsajlk sdajl kdsajlkds ajl kdasjlkda sj laskdjdas lkj adslk fdskj lfdskj dkfjlf dk jslk sdfj lkj fslkj lkj fdlk jf'"
-        :githubUrl="'google.com'"
-        :projectUrl="'google.com'"
-        :tags="['adsf', 'dsffds', 'fdsfsd']"
-        :mediaUrl="'https://yehee.github.io/static/dfa15bea4071d2cc71df5b00f96d2b94/f8eb5/screenshot.png'"
-        :mediaAlt="'Alt'"
+        :header="'Bookworm'"
+        :content1="`Bookworm is a responsive e-commerce bookstore that allows users to buy and sell books online`"
+        :content2="`Using a GraphQL backend instead of REST, Bookworm avoids over and under fetching data.
+                    It also takes advantage of Apollo cache to reduce network traffic and bandwidth consumption`"
+        :githubUrl="'https://github.com/anhminhtran235/Bookworm'"
+        :projectUrl="'https://book-worm.shop'"
+        :tags="['Nodejs', 'React', 'GraphQL', 'MongoDB']"
+        :mediaUrl="require('../../assets/bookworm.png')"
+        :mediaAlt="'Bookworm image'"
         :mediaType="'image'"
     ></card>
     <card
         class="flex-reverse"
-        :header="'lorem5f dlkjds '"
-        :content="'lorem31rr32 dsflkdfjsd lkjsfdlk fdsjl dfskj sfdlkj dsflkj fsdlkjlkjlkj dsflk fdsjl dsalkjasd lkjas dlkas jdlkdas jlk dsajlk sdajl kdsajlkds ajl kdasjlkda sj laskdjdas lkj adslk fdskj lfdskj dkfjlf dk jslk sdfj lkj fslkj lkj fdlk jf'"
-        :githubUrl="'google.com'"
-        :projectUrl="'google.com'"
-        :tags="['adsf', 'dsffds', 'fdsfsd']"
-        :mediaUrl="'https://yehee.github.io/static/dfa15bea4071d2cc71df5b00f96d2b94/f8eb5/screenshot.png'"
-        :mediaAlt="'Alt'"
+        :header="'Codespot'"
+        :content1="`Codespot is a Real-time Collaborative Code Editor.`"
+        :content2="`It is blazingly fast thanks to the Peer-to-Peer architecture.
+                    Powered by Visual Studio Code, it supports syntax highlighting for 65+ programming languages and even code suggestion for some languages`"
+        :githubUrl="'https://github.com/DinamoTeam/Code-Spot'"
+        :projectUrl="'https://code-spot.net/'"
+        :tags="['.NET', 'Angular 8', 'WebRTC', 'Peer-to-Peer']"
+        :mediaUrl="require('../../assets/codespot.gif')"
+        :mediaAlt="'Demo gif'"
+        :mediaType="'image'"
+    ></card>
+    <card
+        :header="'Augmented Reality Sudoku Solver'"
+        :content1="`This is a Python program that connects to computer webcam and solves Sudoku puzzles in Real-Time`"
+        :content2="`The program recognizes digits using Convolutional Neural Network trained on 10,000 digits images.
+                    The Sudoku puzzle is then solved using a best-first search algorithm`"
+        :githubUrl="'https://github.com/anhminhtran235/real_time_sudoku_solver'"
+        :projectUrl="'https://www.youtube.com/watch?v=uUtw6Syic6A&ab_channel=AnhMinhTran'"
+        :tags="['Python', 'OpenCV', 'Keras']"
+        :mediaUrl="'https://www.youtube.com/embed/uUtw6Syic6A'"
+        :mediaAlt="'Demo video'"
+        :mediaType="'youtube'"
+    ></card>
+    <card
+        class="flex-reverse"
+        :header="'Sudoku Solver Visualizer'"
+        :content1="`Sudoku Solver Visualizer is web application that visualizes sudoku solver algorithms`"
+        :content2="`So far, 5 algorithms have been implemented: Backtracking, Greedy Best First Search,
+                    Reverse Backtracking, Spiral Backtracking, and Dancing Links`"
+        :githubUrl="'https://github.com/anhminhtran235/sudoku-solver-visualizer'"
+        :projectUrl="'https://anhminhtran235.github.io/sudoku-solver-visualizer/'"
+        :tags="['Javascript', 'HTML', 'CSS']"
+        :mediaUrl="require('../../assets/sudoku-visualizer.gif')"
+        :mediaAlt="'Demo gif'"
         :mediaType="'image'"
     ></card>
 
     <div class="visit-project">
-        <a>VISIT PROJECT ON GITHUB</a>
+        <a href="https://github.com/anhminhtran235" target="_blank">VISIT PROJECT ON GITHUB</a>
     </div>
 </template>
 

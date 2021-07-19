@@ -1,8 +1,15 @@
 <template>
-    <div class="intro">
+    <div class="intro" id="about">
         <div class="container small">
-            <h2>Nice too meet you 👋</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat id sint veritatis dolores nostrum! Ducimus architecto voluptatem exercitationem corrupti nostrum, quo, voluptate dolore eius, laborum minus enim quisquam praesentium voluptates rem perferendis amet! Explicabo obcaecati assumenda ea cum nostrum quae, delectus sed ex suscipit sequi qui </p>
+            <h2>Nice to meet you 👋</h2>
+            <p>
+                I'm a 3rd year student at SFU majoring in Computer Science. When I was in high school, I learned how to code and fell in love with it.
+                5 years later, my passion for coding hasn't faded. I constantly find cool and challenging projects that exceed my current ability and
+                work on them
+            </p>
+            <p>
+                Currently, I'm working at Article as a Full stack developer co-op 
+            </p>
         </div>
     </div>
 </template>

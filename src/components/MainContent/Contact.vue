@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper" id="my-contact">
         <div class="contact-box">
             <h2>Questions?</h2>
             <p>If you have any questions about my experience, feel free to reach out to me via email.</p>
@@ -11,10 +11,10 @@
                 </div>
             </div>
             <div class="social-media">
-                <a href=""><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href=""><i class="fab fa-github"></i> Github</a>
-                <a href=""><i class="fab fa-medium"></i> Medium</a>
-                <a href=""><i class="fas fa-file"></i> Resume</a>
+                <a href="https://www.linkedin.com/in/anhminhtran/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/anhminhtran235" target="_blank"><i class="fab fa-github"></i> Github</a>
+                <a href="https://medium.com/@dinamoteam01" target="_blank"><i class="fab fa-medium"></i> Medium</a>
+                <a href="#" target="_blank"><i class="fas fa-file"></i> Resume</a>
             </div>
         </div>
     </div>
