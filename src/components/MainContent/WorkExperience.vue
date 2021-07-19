@@ -78,12 +78,11 @@ h1 {
 } 
 
 #timeline {
-    color: white;
-    overflow-x: hidden;
+  color: white;
+  overflow-x: hidden;
 }
 
 #timeline ul {
-  background: white;
   padding: 50px 0;
 }
 
