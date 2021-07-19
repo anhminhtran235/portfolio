@@ -35,6 +35,7 @@ export default {
 
   .container.large {
     padding: 0px 100px;
+    max-width: 1500px;
   }
 
   .container.medium {
