@@ -2,7 +2,7 @@
     "name": "vue-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://anhminhtran235.github.io/portfolio",
+    "homepage": "https://anhminhtran235.github.io/portfolio/",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
