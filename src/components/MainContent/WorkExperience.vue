@@ -7,7 +7,7 @@
                     <h3 class="company">Article (May 2021 - Dec 2021)</h3>
                     <p class="position">Full-stack developer, Co-op</p>
                     <p class="info"><span class="checkmark">✔</span> Fixed 10+ bugs, contributed 3+ features using Java Spring, Java Play and Vue</p>
-                    <p class="info"><span class="checkmark">✔</span> Migrated the system to use AWS Media Convert transcoding service which is up to 50% cheaper, and supports a wider
+                    <p class="info"><span class="checkmark">✔</span> Led an initiative to migrate the system to use AWS Media Convert transcoding service which is up to 50% cheaper, and supports a wider
 range of media formats compared to the previous service</p>
                     <p class="info"><span class="checkmark">✔</span> Enhanced test coverage by writing JUnit tests</p>
                 </div>
