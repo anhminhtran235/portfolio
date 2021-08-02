@@ -28,6 +28,7 @@ html {
 body {
   font-family: "Quicksand", sans-serif;
   background: #fcfcfc;
+  overflow-x: hidden;
   a {
     text-decoration: none;
     color: black;
