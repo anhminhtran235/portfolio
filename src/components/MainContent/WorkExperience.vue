@@ -1,82 +1,73 @@
 <template>
-    <h2 id="work-experience">Work Experience</h2>
-    <section id="timeline">
-        <ul>
-            <li>
-                <div class="card">
-                    <h3 class="company">Article (May 2021 - Dec 2021)</h3>
-                    <p class="position">Full-stack developer, Co-op</p>
-                    <p class="info"><span class="checkmark">✔</span> Fixed 10+ bugs, contributed 3+ features using Java Spring, Java Play and Vue</p>
-                    <p class="info"><span class="checkmark">✔</span> Led an initiative to migrate the system to use AWS Media Convert transcoding service which is up to 50% cheaper, and supports a wider
-range of media formats compared to the previous service</p>
-                    <p class="info"><span class="checkmark">✔</span> Enhanced test coverage by writing JUnit tests</p>
-                </div>
-            </li> 
-            <li>
-                <div class="card">
-                    <h3 class="company">Fieldd.co (Nov 2020 - Jan 2021)</h3>
-                    <p class="position">Full-stack developer, Part-time</p>
-                    <p class="info"><span class="checkmark">✔</span> Integrate Sendgrid’s email tracking into the Customer Relationship Managementsystem to track 500+ invoice emails per day</p>
-                    <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 30+ seconds to 3-5 seconds using MongoDB projection and pagination</p>
-                    <p class="info"><span class="checkmark">✔</span> Developed photo messaging feature using Socket.io and REST API</p>
-                </div>
-            </li>
-            <li>
-                <div class="card">
-                    <h3 class="company">Langara College (May 2020 - Aug 2020)</h3>
-                    <p class="position">Math TA</p>
-                    <p class="info"><span class="checkmark">✔</span> Answered students' questions about the lecture, clarify tough concepts</p>
-                    <p class="info"><span class="checkmark">✔</span> Gave hints to exercises students find challenging</p>
-                    <p class="info"><span class="checkmark">✔</span> Supported students from the following classes: Calculus I, Calculus II, Elementary Statistics, Linear Algebra</p>
-                </div>
-            </li>
-        </ul>
-    </section>
+  <h2 id="work-experience">Work Experience</h2>
+  <section id="timeline">
+    <ul>
+      <li>
+        <div class="card">
+          <h3 class="company">Article (May 2021 - Dec 2021)</h3>
+          <p class="position">Full-stack developer, Co-op</p>
+          <p class="info"><span class="checkmark">✔</span> Fixed 10+ bugs, contributed 3+ features using Java Spring, Java Play and Vue</p>
+          <p class="info"><span class="checkmark">✔</span> Migrated the system to use AWS Media Convert transcoding service which is up to 50% cheaper, and supports a wider range of media formats compared to the previous service</p>
+          <p class="info"><span class="checkmark">✔</span> Enhanced test coverage by writing JUnit tests</p>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <h3 class="company">Fieldd.co (Nov 2020 - Jan 2021)</h3>
+          <p class="position">Full-stack developer, Part-time</p>
+          <p class="info"><span class="checkmark">✔</span> Integrate Sendgrid’s email tracking into the Customer Relationship Managementsystem to track 500+ invoice emails per day</p>
+          <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 30+ seconds to 3-5 seconds using MongoDB projection and pagination</p>
+          <p class="info"><span class="checkmark">✔</span> Developed photo messaging feature using Socket.io and REST API</p>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <h3 class="company">Langara College (May 2020 - Aug 2020)</h3>
+          <p class="position">Math TA</p>
+          <p class="info"><span class="checkmark">✔</span> Answered students' questions about the lecture, clarify tough concepts</p>
+          <p class="info"><span class="checkmark">✔</span> Gave hints to exercises students find challenging</p>
+          <p class="info"><span class="checkmark">✔</span> Supported students from the following classes: Calculus I, Calculus II, Elementary Statistics, Linear Algebra</p>
+        </div>
+      </li>
+    </ul>
+  </section>
 </template>
 
 <script>
 export default {
-    mounted() {
-        const items = document.querySelectorAll('#timeline li');
+  mounted() {
+    const items = document.querySelectorAll("#timeline li");
 
-        const isInViewport = el => {
-            const rect = el.getBoundingClientRect();
-            return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <=
-                (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-        };
+    const isInViewport = el => {
+      const rect = el.getBoundingClientRect();
+      return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+    };
 
-        const run = () =>
-            items.forEach(item => {
-                if (isInViewport(item)) {
-                    item.classList.add('show');
-                }
-            });
+    const run = () =>
+      items.forEach(item => {
+        if (isInViewport(item)) {
+          item.classList.add("show");
+        }
+      });
 
-        // Events
-        window.addEventListener('load', run);
-        window.addEventListener('resize', run);
-        window.addEventListener('scroll', run);
-    }
-}
-
+    // Events
+    window.addEventListener("load", run);
+    window.addEventListener("resize", run);
+    window.addEventListener("scroll", run);
+  },
+};
 </script>
 
-
 <style scoped lang="scss">
-@import '../../styles/_variables.scss';
+@import "../../styles/_variables.scss";
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
   font-size: 2.3rem;
-} 
+}
 
 #timeline {
   color: white;
@@ -125,7 +116,7 @@ h1 {
 
 /* Dots */
 #timeline ul li:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -139,7 +130,7 @@ h1 {
 
 /* Arrows Base */
 #timeline div:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 5px;
   width: 0;
@@ -174,11 +165,10 @@ h1 {
 }
 
 #timeline div {
-    border-radius: 12px;
+  border-radius: 12px;
 }
 
-
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   #timeline ul li div {
     width: 250px;
   }
@@ -188,7 +178,7 @@ h1 {
   }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   #timeline ul li {
     margin-left: 20px;
   }
@@ -209,21 +199,20 @@ h1 {
 }
 
 .position {
-    font-style: italic;
-    font-size: 14px;
-    margin-bottom: 5px;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
 .info {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .checkmark {
-    color: $purple;
+  color: $purple;
 }
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
-
 </style>
