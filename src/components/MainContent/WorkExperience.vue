@@ -6,9 +6,16 @@
         <div class="card">
           <h3 class="company">Article (May 2021 - Dec 2021)</h3>
           <p class="position">Full-stack developer, Co-op</p>
-          <p class="info"><span class="checkmark">✔</span> Fixed 10+ bugs, contributed 3+ features using Java Spring, Java Play and Vue</p>
-          <p class="info"><span class="checkmark">✔</span> Led an initiative to migrate the system to use AWS Media Convert transcoding service which is up to 50% cheaper, and supports a wider range of media formats compared to the previous service</p>
-          <p class="info"><span class="checkmark">✔</span> Enhanced test coverage by writing JUnit tests</p>
+          <p class="info"><span class="checkmark">✔</span> Built a mechanism to specify the country in which Article’s products will be sold to ensure that leather products will not
+be sold in Canadian online stores, thereby allowing the company to avoid tariffs of roughly 4 million dollars</p>
+          <p class="info"><span class="checkmark">✔</span> Worked in a team to implement a product multi-sourcing system to reduce vendor risk through diversification, avoid the
+estimated 57 million dollars loss in revenue, and provide long-term scalability</p>
+          <p class="info"><span class="checkmark">✔</span> Migrated 20+ classes from the original monolith application to a microservice in the Product Decoupling Project which
+provides more scalability, easier maintenance, and efficient team autonomy</p>
+          <p class="info"><span class="checkmark">✔</span> Wrote unit and integration tests for the migrated code with over 90% coverage using Junit and Spring Boot Tests</p>
+          <p class="info"><span class="checkmark">✔</span> Investigated and resolved media-downloading issues in the claim management system</p>
+          <p class="info"><span class="checkmark">✔</span> Currently switching the transcoding service of the Claims management system to AWS Media Convert, which lowers the
+transcoding cost by 50%, and enables a wider range of media formats compared to the former Elastic Transcoder</p>
         </div>
       </li>
       <li>
