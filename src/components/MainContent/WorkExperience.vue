@@ -4,9 +4,19 @@
     <ul>
       <li>
         <div class="card">
-          <h3 class="company">Shopify (Jan 2022 - April 2022)</h3>
-          <p class="position">Incoming Backend Intern</p>
+          <h3 class="company">Google (May 2022 - August 2022)</h3>
+          <p class="position">Incoming SWE Intern</p>
           <p class="info"><span class="checkmark">✔</span> TBA</p>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <h3 class="company">Shopify (Jan 2022 - April 2022)</h3>
+          <p class="position">Backend Intern</p>
+          <p class="info"><span class="checkmark">✔</span> Resolved an HS Code Service bug that has led to inaccurate descriptions of more than 50% of HS Codes (3039 out of 5613 6-digit hs codes) in 5 out of 6 supported languages</p>
+          <p class="info"><span class="checkmark">✔</span> Implemented a reusable Ruby script in the HS Code Service  that parses the latest HS Code CSVs into a readable form, thereby ensuring that this service contains the most up-to-date data</p>
+          <p class="info"><span class="checkmark">✔</span> Built a feature to force collecting duties at checkout when Native Merchant of Record requires duties collection, therefore preventing merchants from paying thousands of dollars of duties out of pocket</p>
+          <p class="info"><span class="checkmark">✔</span> Collaborated with members across teams and staff engineers to add the total_duties field to the Dawn theme, impacting thousands of merchants, developers, and partners</p>
         </div>
       </li>
       <li>

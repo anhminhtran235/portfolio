@@ -81,6 +81,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   max-width: 90%;
+  text-align: center;
 }
 
 .magic {

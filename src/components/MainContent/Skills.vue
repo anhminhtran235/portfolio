@@ -11,7 +11,7 @@
         <p class="content">Java</p>
         <p class="content">Java Spring</p>
         <p class="content">Nodejs</p>
-        <p class="content">Express</p>
+        <p class="content">Ruby</p>
         <p class="content">Hibernate</p>
         <p class="content">MySQL</p>
         <p class="content">MongoDB</p>
