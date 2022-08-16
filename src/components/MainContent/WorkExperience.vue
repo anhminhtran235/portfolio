@@ -5,39 +5,43 @@
       <li>
         <div class="card">
           <h3 class="company">Google (May 2022 - August 2022)</h3>
-          <p class="position">Incoming SWE Intern</p>
-          <p class="info"><span class="checkmark">✔</span> TBA</p>
+          <p class="position">SWE Intern</p>
+          <p class="info"><span class="checkmark">✔</span> Deployed a productionized GraphQL and Java middle tier to improve UI latency and reduce client-side code complexity</p>
+          <p class="info"><span class="checkmark">✔</span> Designed and implemented a GraphQL schema to condense HTTP requests, reducing operation latency by 25-50%</p>
+          <p class="info"><span class="checkmark">✔</span> Reduced the amount of data transmitted over the network by 50-80% with GraphQL declarative data fetching approach</p>
+          <p class="info"><span class="checkmark">✔</span> Added the ability to roll back Remote Procedure Call failures during a 3-step process, ensuring data consistency</p>
+          <p class="info"><span class="checkmark">✔</span> Wrote integration and e2e tests with 90%+ code coverage to run automatically during build and release</p>
         </div>
       </li>
       <li>
         <div class="card">
           <h3 class="company">Shopify (Jan 2022 - April 2022)</h3>
           <p class="position">Backend Intern</p>
-          <p class="info"><span class="checkmark">✔</span> Resolved an HS Code Service bug that has led to inaccurate descriptions of more than 50% of HS Codes (3039 out of 5613 6-digit hs codes) in 5 out of 6 supported languages</p>
-          <p class="info"><span class="checkmark">✔</span> Implemented a reusable Ruby script in the HS Code Service  that parses the latest HS Code CSVs into a readable form, thereby ensuring that this service contains the most up-to-date data</p>
-          <p class="info"><span class="checkmark">✔</span> Built a feature to force collecting duties at checkout when Native Merchant of Record requires duties collection, therefore preventing merchants from paying thousands of dollars of duties out of pocket</p>
-          <p class="info"><span class="checkmark">✔</span> Collaborated with members across teams and staff engineers to add the total_duties field to the Dawn theme, impacting thousands of merchants, developers, and partners</p>
+          <p class="info"><span class="checkmark">✔</span> Identified and resolved a data parsing bug to fix more than 3,000 inaccurate HS Code descriptions in 5 languages</p>
+          <p class="info"><span class="checkmark">✔</span> Implemented a Ruby script to parse CSVs into readable form, ensuring all 5,613 HS Codes are up-to-date</p>
+          <p class="info"><span class="checkmark">✔</span> Built a feature to enforce duty collection, preventing merchants from losing thousands of dollars</p>
+          <p class="info"><span class="checkmark">✔</span> Collaborated across teams to add the total duties field to the Dawn theme, benefiting 1000+ merchants and developers</p>
         </div>
       </li>
       <li>
         <div class="card">
           <h3 class="company">Article (May 2021 - Dec 2021)</h3>
           <p class="position">Full-stack developer, Co-op</p>
-          <p class="info"><span class="checkmark">✔</span> Built a mechanism to specify the country in which Article’s products will be sold to ensure that leather products will not
-be sold in Canadian online stores, thereby allowing the company to avoid tariffs of roughly 4 million dollars</p>
-          <p class="info"><span class="checkmark">✔</span> Worked in a team to implement a product multi-sourcing system to reduce vendor risk through diversification, avoid the
-estimated 57 million dollars loss in revenue, and provide long-term scalability</p>
-          <p class="info"><span class="checkmark">✔</span> Migrated 20+ classes from the original monolith application to a microservice in the Product Decoupling Project which
-provides more scalability, easier maintenance, and efficient team autonomy</p>
+          <p class="info"><span class="checkmark">✔</span> Saved Article 4 million dollars in tariffs by adding a mechanism to specify country of sales</p>
+          <p class="info"><span class="checkmark">✔</span> Contributed to a product multi-sourcing system to increase vendor diversification, avoiding $57M loss in revenue</p>
+          <p class="info"><span class="checkmark">✔</span> Migrated 20+ classes into a microservice, providing more scalability and easier maintenance</p>
+          <p class="info"><span class="checkmark">✔</span> Wrote unit and integration tests for the migrated code with over 90% coverage using Junit and Spring Boot Tests</p>
         </div>
       </li>
       <li>
         <div class="card">
           <h3 class="company">Fieldd.co (Nov 2020 - Jan 2021)</h3>
           <p class="position">Full-stack developer, Part-time</p>
-          <p class="info"><span class="checkmark">✔</span> Integrate Sendgrid’s email tracking into the Customer Relationship Managementsystem to track 500+ invoice emails per day</p>
-          <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 30+ seconds to 3-5 seconds using MongoDB projection and pagination</p>
-          <p class="info"><span class="checkmark">✔</span> Developed photo messaging feature using Socket.io and REST API</p>
+
+          <p class="info"><span class="checkmark">✔</span> Integrated email tracking into CRM system with Node.js and AngularJS to track 500+ invoice emails per day</p>
+          <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 15 seconds to 3-5 seconds using MongoDB projection and pagination</p>
+          <p class="info"><span class="checkmark">✔</span> Developed photo messaging feature using Socket.io and REST API to let staff and clients communicate more easily</p>
+          <p class="info"><span class="checkmark">✔</span> Implemented email verification feature to avoid spam sign-ups and encourage people to use their real information</p>
         </div>
       </li>
       <li>
