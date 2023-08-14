@@ -14,7 +14,7 @@
         <a href="https://www.linkedin.com/in/anhminhtran/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
         <a href="https://github.com/anhminhtran235" target="_blank"><i class="fab fa-github"></i> Github</a>
         <a href="https://medium.com/@dinamoteam01" target="_blank"><i class="fab fa-medium"></i> Medium</a>
-        <a href="https://drive.google.com/file/d/1CakZZjYLI9d0vR-O0acWE_zniTr6p4do/view?usp=sharing" target="_blank"><i class="fas fa-file"></i> Resume</a>
+        <a href="https://drive.google.com/file/d/1qSRk2WqJBg0f1Pd6uiaGyXxgbpyzSW7_/view?usp=sharing" target="_blank"><i class="fas fa-file"></i> Resume</a>
       </div>
     </div>
   </div>

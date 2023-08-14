@@ -6,7 +6,7 @@
     :content2="`Using a GraphQL backend instead of REST, Bookworm avoids over and under fetching data.
                     It also takes advantage of Apollo cache to reduce network traffic and bandwidth consumption`"
     :githubUrl="'https://github.com/anhminhtran235/Bookworm'"
-    :projectUrl="'https://book-worm.shop'"
+    :projectUrl="'https://anhminhtran235.github.io/bookworm'"
     :tags="['Nodejs', 'React', 'GraphQL', 'MongoDB']"
     :mediaUrl="require('../../assets/bookworm.png')"
     :mediaAlt="'Bookworm image'"
@@ -19,7 +19,7 @@
     :content2="`It is blazingly fast thanks to the Peer-to-Peer architecture.
                     Powered by Visual Studio Code, it supports syntax highlighting for 65+ programming languages and even code suggestion for some languages`"
     :githubUrl="'https://github.com/DinamoTeam/Code-Spot'"
-    :projectUrl="'https://code-spot.net/'"
+    :projectUrl="'https://anhminhtran235.github.io/code-spot'"
     :tags="['.NET', 'Angular 8', 'WebRTC', 'Peer-to-Peer']"
     :mediaUrl="require('../../assets/codespot.gif')"
     :mediaAlt="'Demo gif'"

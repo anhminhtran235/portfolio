@@ -5,18 +5,28 @@
       <li>
         <div class="card">
           <h3 class="company">Google (May 2022 - August 2022)</h3>
-          <p class="position">SWE Intern</p>
+          <p class="position">Google Slides SWE Intern - New York</p>
+          <p class="info"><span class="checkmark">✔</span> Successfully built the Pen tool in Google Slides presentation</p>
+          <p class="info"><span class="checkmark">✔</span> Went through multiple UX, Engineering, Product, and Accessibility reviews and got approved for a global launch</p>
+          <p class="info"><span class="checkmark">✔</span> Implemented the ability to change the pen color, undo/redo, and persist drawings on each slide</p>
+          <p class="info"><span class="checkmark">✔</span> Developed a selective re-rendering algorithm, improving the rendering speed of the Pen tool by 1000%</p>
+          <p class="info"><span class="checkmark">✔</span> Authored 3 design docs outlining the project's code architecture and optimization strategy</p>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <h3 class="company">Google (May 2022 - August 2022)</h3>
+          <p class="position">Google Cloud SWE Intern - Waterloo</p>
           <p class="info"><span class="checkmark">✔</span> Deployed a productionized GraphQL and Java middle tier to improve UI latency and reduce client-side code complexity</p>
           <p class="info"><span class="checkmark">✔</span> Designed and implemented a GraphQL schema to condense HTTP requests, reducing operation latency by 25-50%</p>
           <p class="info"><span class="checkmark">✔</span> Reduced the amount of data transmitted over the network by 50-80% with GraphQL declarative data fetching approach</p>
           <p class="info"><span class="checkmark">✔</span> Added the ability to roll back Remote Procedure Call failures during a 3-step process, ensuring data consistency</p>
-          <p class="info"><span class="checkmark">✔</span> Wrote integration and e2e tests with 90%+ code coverage to run automatically during build and release</p>
         </div>
       </li>
       <li>
         <div class="card">
           <h3 class="company">Shopify (Jan 2022 - April 2022)</h3>
-          <p class="position">Backend Intern</p>
+          <p class="position">Backend Intern - Vancouver</p>
           <p class="info"><span class="checkmark">✔</span> Identified and resolved a data parsing bug to fix more than 3,000 inaccurate HS Code descriptions in 5 languages</p>
           <p class="info"><span class="checkmark">✔</span> Implemented a Ruby script to parse CSVs into readable form, ensuring all 5,613 HS Codes are up-to-date</p>
           <p class="info"><span class="checkmark">✔</span> Built a feature to enforce duty collection, preventing merchants from losing thousands of dollars</p>
@@ -26,7 +36,7 @@
       <li>
         <div class="card">
           <h3 class="company">Article (May 2021 - Dec 2021)</h3>
-          <p class="position">Full-stack developer, Co-op</p>
+          <p class="position">Full-stack developer Intern - Vancouver</p>
           <p class="info"><span class="checkmark">✔</span> Saved Article 4 million dollars in tariffs by adding a mechanism to specify country of sales</p>
           <p class="info"><span class="checkmark">✔</span> Contributed to a product multi-sourcing system to increase vendor diversification, avoiding $57M loss in revenue</p>
           <p class="info"><span class="checkmark">✔</span> Migrated 20+ classes into a microservice, providing more scalability and easier maintenance</p>
@@ -36,7 +46,7 @@
       <li>
         <div class="card">
           <h3 class="company">Fieldd.co (Nov 2020 - Jan 2021)</h3>
-          <p class="position">Full-stack developer, Part-time</p>
+          <p class="position">Part-time Full-stack developer - Vancouver </p>
 
           <p class="info"><span class="checkmark">✔</span> Integrated email tracking into CRM system with Node.js and AngularJS to track 500+ invoice emails per day</p>
           <p class="info"><span class="checkmark">✔</span> Reduced the loading time of staff profile from 15 seconds to 3-5 seconds using MongoDB projection and pagination</p>
@@ -47,7 +57,7 @@
       <li>
         <div class="card">
           <h3 class="company">Langara College (May 2020 - Aug 2020)</h3>
-          <p class="position">Math TA</p>
+          <p class="position">Math TA - Vancouver</p>
           <p class="info"><span class="checkmark">✔</span> Answered students' questions about the lecture, clarify tough concepts</p>
           <p class="info"><span class="checkmark">✔</span> Gave hints to exercises students find challenging</p>
           <p class="info"><span class="checkmark">✔</span> Supported students from the following classes: Calculus I, Calculus II, Elementary Statistics, Linear Algebra</p>
